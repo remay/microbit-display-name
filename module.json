@@ -1,0 +1,20 @@
+{
+  "name": "microbit-display-name",
+  "version": "0.0.1",
+  "description": "Scroll the unique name on the display",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
+  "dependencies": {
+      "mbed-classic": "~0.0.4",
+      "ble": "lancaster-university/BLE_API#master",
+      "ble-nrf51822": "lancaster-university/nrf51822#master",
+      "microbit-dal":"lancaster-university/microbit-dal#master"
+  },
+  "targetDependencies": {},
+  "bin": "./source"
+}
+
